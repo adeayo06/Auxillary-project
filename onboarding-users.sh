@@ -4,7 +4,7 @@
 # This script will first check for the existence of the user on the system, before it will attempt to create that it.
 # The user that is being created also must also have a default home folder
 # Each user should have a .ssh folder within its HOME folder. If it does not exist, then it will be created.
-# For each user’s SSH configuration, We will create an authorized_keys file and add the below public key.
+# For each user’s SSH configuration, We will create an authorized_keys file and add the below public key..
 
 #!/bin/bash
 userfile=$(cat names.csv)
